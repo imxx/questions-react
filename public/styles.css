@@ -1,0 +1,149 @@
+.question-row h4{
+	cursor: pointer;
+	padding: 9px;
+	padding-left: 20px;
+	margin: 2px;
+}
+
+
+.header h1{
+	float: left;
+}
+
+.create-question-button{
+	float: right;
+	margin-top: 20px;
+	margin-left: 30px;
+}
+
+.create-question-button i{
+	padding-right: 4px;
+}
+
+.questions-table{
+	margin-top: 20px;
+}
+
+.answers{
+	margin-top: 40px;
+}
+
+.answers .btn{
+	margin-top: 3px;
+	text-align: left;
+}
+
+.graphs select{
+	margin-top: 20px;
+	margin-bottom: 10px;
+	float:right;
+}
+
+.footer p{
+	float: right;
+	margin-top:15px;
+	margin-right: 20px;
+}
+
+.questions-pagination{
+	text-align: center;
+}
+
+.question.graph{
+	transition: opacity 2s;
+}
+
+.form-configuration-panel{
+	text-align: center;
+	margin-bottom: 8px;
+}
+
+.form-configuration-panel button{
+	margin: 3px;
+}
+
+.create-question-form-buttons{
+	text-align: center;
+	margin-bottom: 5px;
+}
+
+.submit-question-button{
+	font-size: 1.3em;
+	width: 34%;
+}
+
+.create-question-form{
+	text-align: center;
+}
+
+.create-question-form label{
+	float: left;
+	margin-bottom: 9px;
+}
+
+.create-question-form .form-control{
+	display: inline-block;
+	width: 90%;
+}
+
+.makeVisible-appear {
+  opacity: 0.01;
+}
+
+.makeVisible-appear.makeVisible-appear-active {
+  opacity: 1;
+  transition: opacity 5s ease-in;
+}
+
+.question-details{
+	float: left;
+	animation-name: appear;
+	animation-duration: 0.3s;
+
+}
+
+@keyframes appear{
+	0%   { opacity: 0; }
+ 	100% { opacity: 1; }
+}
+
+.question-row{
+	animation-name: appear;
+	animation-duration: 0.3s;
+}
+
+.question-graph{
+	animation-name: appear;
+	animation-duration: 0.3s;
+}
+
+button:focus{
+   outline:0 !important;
+}
+button::-moz-focus-inner {
+   border: 0;
+}
+
+.answer-button:active{
+	background: linear-gradient(
+      rgba(0, 0, 0, 0.1), 
+      rgba(0, 0, 0, 0.1)
+    )
+}
+
+.x-icon{
+	width: 10px;
+	height: 10px;
+	display: block;
+	background-image: url(images/x-icon.gif);
+	background-size: 10px;
+	float:right;
+	cursor: pointer;
+	margin-top: 15px;
+	margin-right: 10px
+}
+
+.question-title{
+	width: 90%;
+	float: left;
+}
